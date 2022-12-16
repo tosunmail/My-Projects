@@ -2,5 +2,36 @@
     margin: 0;
 }
 .languages{
-    list-style-type:lower-alpha;
+    list-style-type:circle;
+    list-style-position: outside;
+   }
+.pseudo li{
+    list-style-type: none;
+    background-color: aliceblue;
+    border: 1px solid green;
+    width: 10rem;
+
+}
+.pseudo li:first-child {
+    background-color: antiquewhite;
+    color: red;
+}
+.pseudo li:last-child {
+    background-color: antiquewhite;
+    color: red;
+}
+.pseudo li:nth-child(4) {
+    background-color: darkgray;
+    color: rebeccapurple;
+}
+.pseudo:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.ps::first-line{
+    font-weight: 900;
+}
+.ps::first-letter{
+    font-size: 200%;
 }
