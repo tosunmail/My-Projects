@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#headerleft{
+    nav-left: left;
+    display: inline-block;
+}
+#headerright{
+        float: right;
+    margin-left: 25px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+} 
+header{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    display: block;
+}
+#google{
+    margin-top: 75px;
+    margin-left: 800px;
+}
+
+a{margin-right: 20px;
+}
+#img{
+    margin-right: 20px;
+}
+#mic{
+    width: 15px;
+}
+#searchbar{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    width: 480px;
+    margin-left: 700px;
+}
+#arama{
+    border-style: none;
+    width: 430px;
+}
+#searchbar:hover{
+   box-shadow: 5px 5px 10px;
+    cursor: pointer;
+
+}
+#buttons{
+    display: flex;
+    margin-left: 830px;
+}
+#Search{
+    margin-right: 20px;
+}
+#language{
+    margin-left: 800px;
+}#foot{
+    background-color: bisque;
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+   
+}
+#footerright{
+    margin-left: px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
