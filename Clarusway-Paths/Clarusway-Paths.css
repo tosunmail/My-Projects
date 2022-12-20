@@ -7,10 +7,12 @@
 body{
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  font-size: 27px;
 }
 img {
   width: 25vw;
   border-radius: 20px;
+  float: left;
 }
 section {
   margin: 10px;
@@ -21,6 +23,7 @@ section {
   border-radius: 25px;
   display: inline-block;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.402);
+  
   
 }
 p {

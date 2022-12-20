@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.img1 {
+  width: 30%;
+  float: left;
+  margin-right: 0.8rem;
+}
+.p1 {
+  border: 1px solid red;
+}
+/* floatu eski haline getirmek için kullanılır */
+.clearfix {
+  clear: both;
+}
+/* .main-div{
+    width: 400px;
+} */
+.box {
+  float: left;
+  font-size: 2rem;
+}
+.box1 {
+  background-color: aqua;
+  width: 40%;
+}
+.box2 {
+  background-color: magenta;
+  width: 35%;
+}
+.box3 {
+  background-color: purple;
+  width: 15%;
+}
+
+.center {
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1000px;
+    border: 1px solid red;
+}
+.box{
+    width: 7rem;
+    height: 7rem;
+}
+.box1{
+    background-color: aqua;
+    position: relative;
+    top: 15rem;
+    left: 2rem;
+}
+.box2{
+    background-color: red;
+    position: relative;
+    top: 0rem;
+    left: 2rem;
+}
