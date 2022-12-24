@@ -26,14 +26,14 @@
 // counter++
 // }
 // console.log(`Digit count is ${counter}`);
-let again = ""
-do{
-    avg = 0
-const midterm = Number(prompt("your midterm grade:"))
-const final = Number(prompt("your final grade:"))
-avg = midterm * 0.4 + final * 0.6
-console.log(`Your Score is : ${avg}`);
-const again = prompt("Do you want to countinue(e/E)?")
-} 
-while (again === "e" || again === "E")
-console.log("See you later, Bye");
+// let again = ""
+// do{
+//     avg = 0
+// const midterm = Number(prompt("your midterm grade:"))
+// const final = Number(prompt("your final grade:"))
+// avg = midterm * 0.4 + final * 0.6
+// console.log(`Your Score is : ${avg}`);
+// const again = prompt("Do you want to countinue(e/E)?")
+// } 
+// while (again === "e" || again === "E")
+// console.log("See you later, Bye");
