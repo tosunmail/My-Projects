@@ -1,0 +1,31 @@
+.outer {
+  background-color: crimson;
+  width: 500px;
+  height: 500px;
+}
+.inner {
+  width: 50%;
+  background-color: rgb(44, 129, 182);
+  height: 50%;
+
+  animation-name: travel;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+@keyframes travel {
+  0% {
+    transform: translateX(0);
+    border-radius:40px ;
+  }
+  33% {
+    transform: translateY(100%);
+  }
+  66% {
+transform: translate(100%,100%);
+  }
+  100% {
+transform: translateX(100%);
+  }
+}
