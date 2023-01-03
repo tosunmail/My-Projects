@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Moon+Dance&family=Mukta:wght@200&family=Yeon+Sung&display=swap");
+
+:root {
+  /* COLORS */
+  --white: #fff;
+  --black: #222;
+  --magenta: magenta;
+  --greendark: hsla(208, 30%, 19%, 1);
+  --greenlight: hsla(140, 42%, 56%, 1);
+  --green2: hsla(90, 64%, 57%, 1);
+  --green3: hsla(151, 40%, 39%, 1);
+
+  /* FONTS */
+  --ff-yeon: "Yeon Sung", cursive;
+  --ff-mukta: "Mukta", sans-serif;
+  --ff-moon-dance: "Moon Dance", cursive;
+  --ff-dancing: "Dancing Script", cursive;
+
+  /* FONTS SIZES */
+  --fs-lg: 1.4rem;
+  --fs-md: 1rem;
+  --fs-xl: 1.8rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 3rem;
+
+  /* SHADOWS */
+  --shadow-dark: 0 0 10px rgba(0, 0, 0, 0.4);
+  --shadow-light: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  color: var(--green2);
+  font-family: var(--ff-dancing);
+  font-size: var(--fs-3xl);
+}
+
+p{
+    font-size: var(--fs-md);
+    font-family: var(--ff-moon-dance);
+
+}
+.dark{
+    padding: 3rem;
+    background-color:var(--greendark);
+    box-shadow: var(--shadow-dark);
+    margin-bottom: 2rem;
+}
+
+.light{
+    padding: 3rem;
+    background-color: var(--green2);
+    box-shadow: var(--shadow-light);
+    
+}
