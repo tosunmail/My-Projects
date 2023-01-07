@@ -6,3 +6,4 @@ function mergeSortedArrays (A , B) {
 }
 
 console.log(mergeSortedArrays(A , B));
+
