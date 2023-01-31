@@ -2,6 +2,7 @@
 const submit = document.getElementById('submit');
 submit.addEventListener('click', function(e) {
   // e.preventDefault();
+  
   const city = document.getElementById('city').value;
   const apiKey = 'ac071e8a18b7a0be2d937752b84ed33c';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
@@ -23,5 +24,9 @@ cityInput.addEventListener('keypress', function(e) {
     submit.click();
   }
 });
+
+window.onload = function() {
+  document.getElementById("city").focus();
+};
 
 
